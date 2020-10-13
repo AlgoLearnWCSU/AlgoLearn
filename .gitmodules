@@ -1,3 +1,6 @@
 [submodule "AlgoLearnApi"]
 	path = AlgoLearnApi
 	url = https://github.com/AlgoLearnWCSU/AlgoLearnApi
+[submodule "AlgoLearnWeb"]
+	path = AlgoLearnWeb
+	url = https://github.com/AlgoLearnWCSU/AlgoLearnWeb
