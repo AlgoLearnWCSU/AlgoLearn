@@ -24,10 +24,12 @@ running service before it is submitted to the database.
 
 ## Code Runner
 
-
+The code runner server is a microservice that responds to calls from the backend. This service will run JavaScript code provided by the user in a secure runtime environemnt. The result and metadata of the execution of the code is returned to the backend.
 
 <br>
 
 ## User Authorization
+
+The authorization flow for this application starts on the frontend. The user will be directed to the OAuth2.0 link for either Microsoft or GitHub. The user will then sign into the given service and be returned to the frontend with a code. That code is passed to the backend, which can now access user's data and verify that the user is validated. The backend will generate and return an access token and will also return a refresh token to the user from the sign in provider. The user can now access our api routes via their access token. If their access token becomes invalid, they may refresh their access token via sending the refresh token to our backend, which will in turn generate a new refresh token for the user.
 
 <br>
