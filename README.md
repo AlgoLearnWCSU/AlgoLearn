@@ -103,4 +103,4 @@ SOFTWARE.
 - [Ace-Builds](https://github.com/ajaxorg/ace-builds)
 - [Angular Material](https://material.angular.io/)
 - [judge0](https://judge0.com/)
-- [reDock](https://www.redock.com/)
+- [redock](https://github.com/Redocly/redoc)
