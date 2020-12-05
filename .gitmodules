@@ -1,8 +1,8 @@
 [submodule "AlgoLearnApi"]
 	path = AlgoLearnApi
-	branch = master
+	branch = dev
 	url = https://github.com/AlgoLearnWCSU/AlgoLearnApi
 [submodule "AlgoLearnWeb"]
 	path = AlgoLearnWeb
-	branch = master
+	branch = dev
 	url = https://github.com/AlgoLearnWCSU/AlgoLearnWeb
